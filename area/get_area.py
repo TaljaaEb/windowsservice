@@ -31,7 +31,7 @@ print("\n")
 
 # Client class
 class Client:
-    def __init__(self, server_host='hostname', server_port=443):
+    def __init__(self, server_host='hostname', server_port=8443):
         self.server_host = server_host
         self.server_port = server_port
 
